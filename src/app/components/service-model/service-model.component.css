@@ -1,0 +1,22 @@
+.service-model-container {
+    padding: 10px;
+}
+.service-model-container ul {
+    list-style-type: none;
+    text-align: center;
+}
+.service-model-container ul li {
+    display: inline-block;
+    width: 160px;
+    margin: 10px;
+}
+.service-model-container ul li img{
+    width: 100px;
+}
+ .button-info {
+    margin: 10px;
+}
+ .service-model p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}

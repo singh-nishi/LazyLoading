@@ -1,0 +1,12 @@
+<div id="service-model-container">
+  <dx-popup class="service-model" [width]="300" [height]="250" [showTitle]="true" title="Enter Value" [dragEnabled]="false" [closeOnOutsideClick]="true"
+    [(visible)]="serviceModelVisible">
+    <div *dxTemplate="let data of 'content'">
+      <dx-text-area [height]="35" [(value)]="ip">
+      </dx-text-area>
+      <br>
+      <dx-button class="button-info" text="Ok" (onClick)="close()">
+      </dx-button>
+    </div>
+  </dx-popup>
+ </div>
